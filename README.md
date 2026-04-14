@@ -13,7 +13,7 @@
   <header class="site-header">
     <div class="container header-top">
       <div class="header-logo">
-        <img src="images/logo_zimukumiaiRJC.png" alt="RJCロゴ">
+        <img src="https://github.com/kimura0229/sample01/blob/main/images/logo_zimukumiaiRJC.png?raw=true" alt="RJCロゴ">
       </div>
 
       <div class="header-contact">
