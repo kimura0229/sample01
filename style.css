@@ -1,0 +1,358 @@
+/* 全体 */
+body {
+  margin: 0;
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.container {
+  width: 1100px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  padding: 20px 0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-logo img {
+  max-height: 60px;
+  width: auto;
+}
+
+.header-contact img {
+  max-height: 60px;
+  width: auto;
+}
+/* ヘッダーボタン全体 */
+.header-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* 共通ボタン */
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 30px;
+  border-radius: 50px;
+
+  font-size: 12px;
+  font-weight: bold;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* アイコン */
+.icon {
+  font-size: 20px;
+}
+
+/* オレンジ（ログイン） */
+.login-btn {
+  background-color: #f06c00;
+}
+
+/* グレー（メニュー） */
+.menu-btn {
+  background-color: #777777;
+}
+
+/* メインビジュアル */
+.mainvisual {
+  background-color: #d2e7fa;
+  padding: 20px 0 40px;
+  margin: 0px 80px;
+}
+
+.mainvisual img {
+  width: 100%;
+  height: auto;
+}
+/* CTAボタン */
+.cta-area {
+ display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.cta-area img {
+  max-width: 500px;
+  width: 100%;
+}
+
+
+/* プロフィール全体 */
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  margin: 60px 0;
+}
+
+
+/* 人物画像 */
+.profile-image img {
+  width: 220px;
+}
+
+
+/* プロフィールカード */
+.profile-card {
+  background-color: #ffffff;
+
+  border: 4px solid #2c5d7c;
+  border-radius: 6px;
+
+  padding: 30px;
+  width: 350px;
+
+  position: relative;
+}
+
+
+/* 折り返し角（右下のやつ） */
+.profile-card::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+
+  width: 30px;
+  height: 30px;
+
+  background-color: #ffffff;
+  border-left: 4px solid #2c5d7c;
+  border-top: 4px solid #2c5d7c;
+}
+
+
+/* タイトル */
+.profile-card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* テキスト */
+.profile-card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.profile-card span {
+  font-weight: bold;
+}
+
+/* セクション全体 */
+.problem-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+/* 中央寄せ用 */
+.problem-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* タイトル */
+.problem-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #2c5d7c;
+
+  margin-bottom: 40px;
+}
+
+/* 本文 */
+.problem-text {
+  text-align: left;
+}
+
+/* 段落 */
+.problem-text p {
+  font-size: 16px;
+  line-height: 2.2;
+  margin-bottom: 40px;
+  color: #333333;
+}
+
+/* 監修セクション全体 */
+.supervisor-section {
+  margin: 80px 0;
+}
+
+.supervisor-inner {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #d9eefc;
+  padding: 40px 60px 50px;
+  box-sizing: border-box;
+}
+
+/* タイトル */
+.supervisor-title {
+  margin: 0 0 35px 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* 中身を横並び */
+.supervisor-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+/* 左の画像 */
+.supervisor-image img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+/* 中央プロフィール */
+.supervisor-profile {
+  width: 460px;
+  color: #333333;
+}
+
+.name-kana {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.name-main {
+  margin: 0 0 30px 0;
+  font-size: 46px;
+  font-weight: normal;
+  color: #333333;
+}
+
+.supervisor-profile p {
+  margin: 0 0 18px 0;
+  font-size: 21px;
+  line-height: 1.8;
+}
+
+/* 右コメントボックス */
+.supervisor-comment {
+  width: 740px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 30px 36px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.supervisor-comment p {
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.9;
+  color: #333333;
+}
+
+.flow-section {
+  padding: 20px 0 30px;
+}
+
+.flow-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+margin-bottom: 26px;
+}
+
+/* スマホ対応 */
+@media (max-width: 1200px) {
+  .supervisor-content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .supervisor-profile,
+  .supervisor-comment {
+    width: 100%;
+  }
+
+  .supervisor-inner {
+    padding: 30px 20px 40px;
+  }
+
+  .name-main {
+    font-size: 36px;
+  }
+
+  .supervisor-profile p,
+  .supervisor-comment p {
+    font-size: 18px;
+  }
+}
+
+/* スマホ対応 */
+@media (max-width: 900px) {
+  .header-top,
+  .main-layout,
+  .profile-box,
+  .compare-wrap {
+    flex-direction: column;
+  }
+
+  .content,
+  .sidebar,
+  .compare-box,
+  .profile-image {
+    width: 100%;
+  }
+
+  .header-top {
+    align-items: flex-start;
+  }
+
+  .article-title {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+}
